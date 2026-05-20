@@ -1,12 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <math.h>
 
 int main ()
 {
-    int n, i, d;
-    float E=1, f;
+    int i, d;
+    float E=1, f, n;
 
-    scanf("%d", &n);
+    scanf("%f", &n);
 
     for (i=1; i<=n; i++)
     {
@@ -14,7 +15,7 @@ int main ()
         
         for (d=1; d<=i; d++)
         {
-            f *= d;    
+            f *= d;
         }
 
         E += 1/f;

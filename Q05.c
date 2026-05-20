@@ -39,11 +39,11 @@ int main()
     
     porcent = (nsalario100*1.0/nhabitantes)*100;
 
-    printf("\n");
     printf("%.2f\n", totsal/nhabitantes);
     printf("%d\n", totfilhos/nhabitantes);
     printf("%.2f\n", maiorsal);
     printf("%.2f\n", porcent);
+    printf("\n");
 
 
 

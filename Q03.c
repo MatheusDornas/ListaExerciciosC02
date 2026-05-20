@@ -28,6 +28,7 @@ int main()
         }
         if (nint%2==0)
         {
+        
             por2++;
             divisivel=1;
         }
